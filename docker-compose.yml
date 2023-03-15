@@ -1,0 +1,13 @@
+services:
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus-poc
+    ports:
+      - "9090:9090"
+    volumes:
+      - "/path/to/prometheus.yml:/etc/prometheus/prometheus.yml"
+  grafana:
+    image: grafana/grafana
+    container_name: grafana-poc
+    ports:
+      - "3000:3000"
