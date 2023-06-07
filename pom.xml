@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>spring-boot-micrometer-monitoring</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-boot-micrometer-monitoring</name>
     <description>spring-boot-micrometer-monitoring</description>
     <properties>

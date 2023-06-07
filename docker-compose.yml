@@ -5,7 +5,8 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - "/path/to/prometheus.yml:/etc/prometheus/prometheus.yml"
+      - "~/Developer/docker-volumes/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml"
+      - "/var/run/docker.sock:/var/run/docker.sock"
   grafana:
     image: grafana/grafana
     container_name: grafana-poc
